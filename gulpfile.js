@@ -8,7 +8,6 @@ var mocha = require('gulp-mocha');
 var plato = require('gulp-plato');
 var clean = require('gulp-clean');
 var sass = require('gulp-sass');
-var less = require('gulp-less');
 var gulp = require('gulp');
 
 var paths = {
