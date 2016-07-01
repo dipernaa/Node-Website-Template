@@ -1,0 +1,27 @@
+<!-- views/index.ejs -->
+<!doctype html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+
+    <% include partials/common_css.ejs %>
+    <link rel="stylesheet" href="/dist/css/index.css">
+</head>
+<body ng-controller="IndexCtrl">
+
+    <% include partials/navbar.ejs %>
+    
+    <div class="container" id="feature">
+        <div class="jumbotron text-center">
+            <h1>Title</h1>
+            <p>You are at index!</p>
+        </div>
+    </div>
+
+    <script src="/bower_components/angular/angular.min.js"></script>
+    <script src="/dist/js/index.js"></script>
+</body>
+</html>
